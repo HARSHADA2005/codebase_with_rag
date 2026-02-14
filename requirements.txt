@@ -1,0 +1,46 @@
+streamlit
+requests
+openai
+PyPDF2
+python-docx
+pandas
+sentence-transformers
+numpy
+scikit-learn
+transformers
+torch
+# Core Streamlit and Web Framework
+streamlit>=1.28.0
+requests>=2.31.0
+
+# OpenAI and AI Libraries
+openai>=1.0.0
+
+# Document Processing Libraries
+PyPDF2>=3.0.1
+python-docx>=0.8.11
+pandas>=2.0.0
+
+# Machine Learning and Embeddings
+sentence-transformers>=2.2.2
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Additional Utilities
+pathlib2>=2.3.7
+
+# Optional: For better PDF processing (alternative to PyPDF2)
+# pypdf>=3.15.0
+
+# Optional: For additional document formats
+# openpyxl>=3.1.2  # For Excel files
+# python-pptx>=0.6.21  # For PowerPoint files
+
+# Optional: For enhanced text processing
+# nltk>=3.8.1
+# spacy>=3.6.0
+
+# Development Dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
